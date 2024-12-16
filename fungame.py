@@ -23,7 +23,7 @@ if ques == "y" or ques =="yes":
     
 
     while att_count != attempts:
-        if game != "scissor" or game != "paper" or game != "rock":
+        if game not in choices:
             print("Please enter valid input")
             break
             
