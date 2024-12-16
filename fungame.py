@@ -52,7 +52,7 @@ if ques == "y" or ques =="yes":
             print(f"Computer: {ram_choice}\nYou: {game}\nYou Won!")
             break
 
-        print(f"Attempt Used: {att_count}")
+        print(f"Attempt Used: {att_count} \5")
         game = input("choose scissor, paper and rock: ").lower()
 
 
