@@ -35,16 +35,10 @@ if ques == "y" or ques =="yes":
             print("Tie")
 
 
-        elif ram_choice == "scissor" and game == "paper" :
-            print(f"Computer: {ram_choice}\nYou: {game}\nYou lose!")
-
-        
-        
-        elif ram_choice == "paper" and game == "rock":
-            print(f"Computer: {ram_choice}\nYou: {game}\nYou lose!")
-            
-            
-        elif ram_choice == "rock" and game == "scissor" :
+        elif (ram_choice == "scissor" and game == "paper") or\
+            (ram_choice == "paper" and game == "rock") or\
+            (ram_choice == "rock" and game == "scissor" ) :
+                
             print (f"Computer: {ram_choice}\nYou: {game}\nYou lose!")
 
     
