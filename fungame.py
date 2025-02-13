@@ -23,6 +23,7 @@ if ques == "y" or ques =="yes":
     
 
     while att_count != attempts:
+        ram_choice = random.choice(choices)
         if game not in choices:
             print("Please enter valid input")
             break
